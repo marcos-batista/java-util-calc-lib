@@ -2,8 +2,8 @@ package marcosbatista.java.utils;
 
 public class Multiply implements Operation {
 
-	public Number run(int a, int b) {
-		return (a * b);
+	public Number run(Number a, Number b) {
+		return (a.doubleValue() * b.doubleValue());
 	}
 
 }

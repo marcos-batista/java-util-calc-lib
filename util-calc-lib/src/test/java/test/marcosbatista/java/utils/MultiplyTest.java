@@ -17,19 +17,19 @@ public class MultiplyTest {
 	public void run1() {
 		Operation multiply = factoryOperation();
 		Number result = multiply.run(1, 1);
-		assertEquals(1, result);
+		assertEquals(1.0, result);
 	}
 	
 	@Test
 	public void run2() {
 		Operation multiply = factoryOperation();
-		Number result = null; int i = 1;
+		Number result = null; double i = 1;
 		do {
 			result = multiply.run(2, i);
-			i = (Integer) result;
+			i = (Double) result;
 			
 		} while (i < 10);
-		assertEquals(16, result);
+		assertEquals(16.0, result);
 	}
 
 }

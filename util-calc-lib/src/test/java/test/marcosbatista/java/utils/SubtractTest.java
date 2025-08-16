@@ -17,23 +17,23 @@ public class SubtractTest {
 	public void run1() {
 		Operation subtract = factoryOperation(); Number result = 10;
 		
-		result = subtract.run((Integer) result, 3);
-		assertEquals(7, result);
+		result = subtract.run(result, 3);
+		assertEquals(7.0, result);
 		
-		result = subtract.run((Integer) result, 3);
-		assertEquals(4, result);
+		result = subtract.run(result, 3);
+		assertEquals(4.0, result);
 		
-		result = subtract.run((Integer) result, 3);
-		assertEquals(1, result);
+		result = subtract.run(result, 3);
+		assertEquals(1.0, result);
 		
-		result = subtract.run((Integer) result, 3);
-		assertEquals(-2, result);
+		result = subtract.run(result, 3);
+		assertEquals(-2.0, result);
 		
-		result = subtract.run((Integer) result, 3);
-		assertEquals(-5, result);
+		result = subtract.run(result, 3);
+		assertEquals(-5.0, result);
 		
-		result = subtract.run((Integer) result, 3);
-		assertEquals(-8, result);
+		result = subtract.run(result, 3);
+		assertEquals(-8.0, result);
 		
 	}
 
