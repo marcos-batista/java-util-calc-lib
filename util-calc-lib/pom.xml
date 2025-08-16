@@ -8,6 +8,14 @@
 	<name>util-calc-lib</name>
 	<url>http://maven.apache.org</url>
 	
+	<distributionManagement>
+		<repository>
+			<id>github-mb-1</id>
+			<name>Marcos Batista's Github Packages</name>
+			<url>https://maven.pkg.github.com/marcos-batista/java-util-calc-lib.git</url>
+		</repository>
+	</distributionManagement>
+		
 	<dependencies>
 	
 		<dependency>
